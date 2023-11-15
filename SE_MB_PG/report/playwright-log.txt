@@ -1,0 +1,127 @@
+{"level":30,"time":"2023-11-15T04:21:08.943Z","pid":797,"hostname":"docker-desktop","msg":"Listening on 59635"}
+{"level":30,"time":"2023-11-15T04:21:09.061Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:09.061Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:09.067Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:09.067Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:09.074Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-11-15T04:21:09.074Z","pid":797,"hostname":"docker-desktop","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2023-11-15T04:21:09.258Z","pid":797,"hostname":"docker-desktop","msg":"Trace file: "}
+{"level":30,"time":"2023-11-15T04:21:09.269Z","pid":797,"hostname":"docker-desktop","msg":"Changed active context"}
+{"level":30,"time":"2023-11-15T04:21:09.269Z","pid":797,"hostname":"docker-desktop","msg":"End of node method newContext"}
+{"level":30,"time":"2023-11-15T04:21:09.274Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-11-15T04:21:09.275Z","pid":797,"hostname":"docker-desktop","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-11-15T04:21:09.322Z","pid":797,"hostname":"docker-desktop","msg":"Video path: undefined"}
+{"level":30,"time":"2023-11-15T04:21:09.322Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:12.151Z","pid":797,"hostname":"docker-desktop","msg":"End of node method newPage"}
+{"level":30,"time":"2023-11-15T04:21:15.169Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:15.170Z","pid":797,"hostname":"docker-desktop","Take screenshot with options: ":{"path":"/RF_data/report/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-11-15T04:21:15.342Z","pid":797,"hostname":"docker-desktop","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:15.353Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.357Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.360Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.362Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.366Z","pid":797,"hostname":"docker-desktop","msg":"Changed active context"}
+{"level":30,"time":"2023-11-15T04:21:15.367Z","pid":797,"hostname":"docker-desktop","msg":"Changing current active page: page=e75e9d89-2a8d-4b3d-8e96-96db6e7313c3"}
+{"level":30,"time":"2023-11-15T04:21:15.367Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:15.370Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.373Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.376Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:15.377Z","pid":797,"hostname":"docker-desktop","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:15.381Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:15.381Z","pid":797,"hostname":"docker-desktop","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:15.386Z","pid":797,"hostname":"docker-desktop","msg":"Changing current active page: page=e75e9d89-2a8d-4b3d-8e96-96db6e7313c3"}
+{"level":30,"time":"2023-11-15T04:21:15.386Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:15.394Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.396Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.399Z","pid":797,"hostname":"docker-desktop","msg":"Changed active context"}
+{"level":30,"time":"2023-11-15T04:21:15.399Z","pid":797,"hostname":"docker-desktop","msg":"Changing current active page: page=e75e9d89-2a8d-4b3d-8e96-96db6e7313c3"}
+{"level":30,"time":"2023-11-15T04:21:15.399Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:15.402Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-11-15T04:21:15.407Z","pid":797,"hostname":"docker-desktop","msg":"Removed page=54889513-23fe-471e-97fc-f0708107c2ed from context=b0f58f2d-0172-4d1e-ac1f-e55539b59e86 page stack"}
+{"level":30,"time":"2023-11-15T04:21:15.410Z","pid":797,"hostname":"docker-desktop","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-11-15T04:21:15.414Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.414Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.422Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.422Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.426Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.426Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.433Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.433Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.437Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.437Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.443Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.443Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.449Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.449Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.462Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.462Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.466Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.466Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:15.474Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-11-15T04:21:15.475Z","pid":797,"hostname":"docker-desktop","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-11-15T04:21:15.475Z","pid":797,"hostname":"docker-desktop","msg":"Trace file: "}
+{"level":30,"time":"2023-11-15T04:21:15.479Z","pid":797,"hostname":"docker-desktop","msg":"Changed active context"}
+{"level":30,"time":"2023-11-15T04:21:15.479Z","pid":797,"hostname":"docker-desktop","msg":"End of node method newContext"}
+{"level":30,"time":"2023-11-15T04:21:15.484Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-11-15T04:21:15.484Z","pid":797,"hostname":"docker-desktop","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-11-15T04:21:15.517Z","pid":797,"hostname":"docker-desktop","msg":"Video path: undefined"}
+{"level":30,"time":"2023-11-15T04:21:15.517Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:18.248Z","pid":797,"hostname":"docker-desktop","msg":"End of node method newPage"}
+{"level":30,"time":"2023-11-15T04:21:21.266Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:21.266Z","pid":797,"hostname":"docker-desktop","Take screenshot with options: ":{"path":"/RF_data/report/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":90000,"omitBackground":false}}
+{"level":30,"time":"2023-11-15T04:21:21.388Z","pid":797,"hostname":"docker-desktop","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:21.393Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method hover"}
+{"level":30,"time":"2023-11-15T04:21:21.393Z","pid":797,"hostname":"docker-desktop","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(),\"Serial\")] in page."}
+{"level":30,"time":"2023-11-15T04:21:21.470Z","pid":797,"hostname":"docker-desktop","msg":"End of node method hover"}
+{"level":30,"time":"2023-11-15T04:21:21.475Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:21.476Z","pid":797,"hostname":"docker-desktop","msg":"Invoking mouse action down with params {\"options\":{\"button\":\"left\",\"clickCount\":1}}"}
+{"level":30,"time":"2023-11-15T04:21:21.479Z","pid":797,"hostname":"docker-desktop","msg":"End of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:21.481Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:21.481Z","pid":797,"hostname":"docker-desktop","msg":"Invoking mouse action up with params {\"options\":{\"button\":\"left\",\"clickCount\":1}}"}
+{"level":30,"time":"2023-11-15T04:21:21.486Z","pid":797,"hostname":"docker-desktop","msg":"End of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:22.506Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:22.506Z","pid":797,"hostname":"docker-desktop","Take screenshot with options: ":{"path":"/RF_data/report/browser/screenshot/robotframework-browser-screenshot-3.png","fileType":"png","fullPage":false,"timeout":90000,"omitBackground":false}}
+{"level":30,"time":"2023-11-15T04:21:22.701Z","pid":797,"hostname":"docker-desktop","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:22.711Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method hover"}
+{"level":30,"time":"2023-11-15T04:21:22.711Z","pid":797,"hostname":"docker-desktop","msg":"Strict mode is enabled, find Locator with xpath=//a[contains(text(),\"COM1\")] in page."}
+{"level":30,"time":"2023-11-15T04:21:22.767Z","pid":797,"hostname":"docker-desktop","msg":"End of node method hover"}
+{"level":30,"time":"2023-11-15T04:21:22.772Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:22.772Z","pid":797,"hostname":"docker-desktop","msg":"Invoking mouse action down with params {\"options\":{\"button\":\"left\",\"clickCount\":1}}"}
+{"level":30,"time":"2023-11-15T04:21:22.774Z","pid":797,"hostname":"docker-desktop","msg":"End of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:22.776Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:22.776Z","pid":797,"hostname":"docker-desktop","msg":"Invoking mouse action up with params {\"options\":{\"button\":\"left\",\"clickCount\":1}}"}
+{"level":30,"time":"2023-11-15T04:21:22.779Z","pid":797,"hostname":"docker-desktop","msg":"End of node method mouseButton"}
+{"level":30,"time":"2023-11-15T04:21:23.834Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:23.834Z","pid":797,"hostname":"docker-desktop","Take screenshot with options: ":{"path":"/RF_data/report/browser/screenshot/robotframework-browser-screenshot-4.png","fileType":"png","fullPage":false,"timeout":90000,"omitBackground":false}}
+{"level":30,"time":"2023-11-15T04:21:23.959Z","pid":797,"hostname":"docker-desktop","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-11-15T04:21:23.972Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:23.974Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:23.977Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:23.979Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:23.982Z","pid":797,"hostname":"docker-desktop","msg":"Changed active context"}
+{"level":30,"time":"2023-11-15T04:21:23.982Z","pid":797,"hostname":"docker-desktop","msg":"Changing current active page: page=d16e4695-9c12-46c0-91ff-d0bf3bd19546"}
+{"level":30,"time":"2023-11-15T04:21:23.982Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:23.985Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:23.988Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:23.990Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:23.990Z","pid":797,"hostname":"docker-desktop","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:23.993Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:23.993Z","pid":797,"hostname":"docker-desktop","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-11-15T04:21:23.995Z","pid":797,"hostname":"docker-desktop","msg":"Changing current active page: page=d16e4695-9c12-46c0-91ff-d0bf3bd19546"}
+{"level":30,"time":"2023-11-15T04:21:23.995Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:24.000Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:24.003Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:24.005Z","pid":797,"hostname":"docker-desktop","msg":"Changed active context"}
+{"level":30,"time":"2023-11-15T04:21:24.005Z","pid":797,"hostname":"docker-desktop","msg":"Changing current active page: page=d16e4695-9c12-46c0-91ff-d0bf3bd19546"}
+{"level":30,"time":"2023-11-15T04:21:24.005Z","pid":797,"hostname":"docker-desktop","msg":"Changed active page"}
+{"level":30,"time":"2023-11-15T04:21:24.008Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-11-15T04:21:24.010Z","pid":797,"hostname":"docker-desktop","msg":"Removed page=f69e747e-805b-4154-b5fc-f22cc0a84079 from context=b6e601eb-4a0a-4b14-a9a4-52a96014fe03 page stack"}
+{"level":30,"time":"2023-11-15T04:21:24.013Z","pid":797,"hostname":"docker-desktop","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-11-15T04:21:24.018Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:24.018Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:24.025Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:24.025Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:24.032Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:24.033Z","pid":797,"hostname":"docker-desktop","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-11-15T04:21:25.202Z","pid":797,"hostname":"docker-desktop","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-11-15T04:21:25.284Z","pid":797,"hostname":"docker-desktop","msg":"End of node method closeAllBrowsers"}
