@@ -12,4 +12,4 @@ ENV PATH="/home/pwuser/.local/bin:${PATH}"
 ENV NODE_PATH=/usr/lib/node_modules
 
 USER pwuser
-RUN pip3 install --no-cache-dir --user --upgrade robotframework-seleniumlibrary robotframework-appiumlibrary
+RUN pip3 install --no-cache-dir --user --upgrade robotframework-seleniumlibrary robotframework-appiumlibrary robotframework-selenium2library
