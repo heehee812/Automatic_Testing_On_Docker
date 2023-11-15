@@ -5,30 +5,49 @@ Library    SeleniumLibrary
 *** Variable ***
 ${username}    admin
 ${password}    Aa123456
-${IP Address}    http://192.168.4.104/index.html
-# ${title}    Network Settings
+${DHCP_IP Address}    http://192.168.4.104/index.html
+${Manual_IP Address}    http://10.0.50.41/index.html
 
 *** Test Cases ***
-Check If IP Address Can Be Changed Manually
-    [Documentation]    Test if the ip address of DUT can be changes Manually
-    [Tags]    SE52XX
-    ${old_timeout} =    Set Browser Timeout    1m 30 seconds
-    Go To DUT Webpage    ${IP Address}
-    Go To Subwebpage    Serial
-    Go To Subwebpage    COM1
-    # Change Value Of The Element
-    Set Browser Timeout    ${old_timeout}
+Check If DHCP Can Be Enable Properly
+    [Documentation]    Test if DHCP of the DUT can be eable properly.
+    [Tags]    Network_Settings
+    Go To DUT Webpage    ${Manual_IP Address}
+    Go To Subwebpage    Network Settings
+    Go To Subwebpage    IPv4 Settings
+    Enable Or Disble DHCP
+    Take Screenshot
+    Save And Apply
+    Go To DUT Webpage    ${DHCP_IP Address}
+    Go To Subwebpage    Network Settings
+    Go To Subwebpage    IPv4 Settings
+    Check If The Element State Correct    css=iframe >>> input[name="chkDHCP0"]    checked
 
-Test Case 2
-    [Tags]    MB59XX
-    Log    testcase2
+Check If DHCP Can Be Disable Properly
+    [Documentation]    Test if DHCP of the DUT can be disable properly.
+    [Tags]    Network_Settings
+    Go To DUT Webpage    ${DHCP_IP Address}
+    Go To Subwebpage    Network Settings
+    Go To Subwebpage    IPv4 Settings
+    Enable Or Disble DHCP
+    Change IP Manaully    10.0.50.41
+    Change Subnet Manaully    255.255.0.0
+    Change Gateway Manaully    10.0.50.254
+    Take Screenshot
+    Save And Apply
+    Go To DUT Webpage    ${Manual_IP Address}
+    Go To Subwebpage    Network Settings
+    Go To Subwebpage    IPv4 Settings
+    Check If The Element State Correct    css=iframe >>> input[name="chkDHCP0"]    unchecked
 
 *** Keyword ***
 Go to DUT Webpage
     [Arguments]    ${IP}
+    ${old_timeout} =    Set Browser Timeout    1m
     New Context     ignoreHTTPSErrors=True    httpCredentials={'username': '$username', 'password': '$password'}
     New Page    ${IP}
     Sleep     3s
+    Set Browser Timeout    ${old_timeout}
     Take Screenshot
 
 Go To Subwebpage
@@ -38,10 +57,30 @@ Go To Subwebpage
     Sleep     1s
     Take Screenshot
 
-Change Value Of The Element
-    Hover    xpath=//div[@id="directory"]
-    Mouse Button    click
-    # Page Should Contain Element    xpath=//div[@id="directory"]
+Enable Or Disble DHCP
     Take Screenshot
+    Hover    css=iframe >>> input[name="chkDHCP0"]
+    Mouse Button    click
+
+Change IP Manaully
+    [Arguments]    ${IP}
+    Type Text    css=iframe >>> input[name="txtIP0"]    ${IP}
+
+Change Subnet Manaully
+    [Arguments]    ${Subnet}
+    Type Text    css=iframe >>> input[name="txtSubnet0"]    ${Subnet}
+
+Change Gateway Manaully
+    [Arguments]    ${Gateway}
+    Type Text    css=iframe >>> input[name="txtGateway0"]    ${Gateway}
+
+Save And Apply
+    Hover    css=iframe >>> input[type="submit"]
+    Mouse Button    click
+
+Check If The Element State Correct
+    [Arguments]    ${element}    ${state}
+    Get Checkbox State    ${element}    ==    ${state}
+
 
     
