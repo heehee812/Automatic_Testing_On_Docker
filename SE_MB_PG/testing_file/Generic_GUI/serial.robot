@@ -1,7 +1,5 @@
 *** Settings ***
-Library   Browser
-Library    SeleniumLibrary
-Library    BuiltIn
+Resource    common_keyword.robot
 Suite Setup    Go to The Serial Page
 
 *** Variable ***
@@ -20,7 +18,7 @@ Check If Application Mode Can Be Changed To The TCP Server Porperly
     Save And Apply
 
 Check If Sereial Setting Can Be Changed Properly
-    [Documentation]    Tewt if the serial setting can be changed properly
+    [Documentation]    Test if the serial setting can be changed properly
     [Tags]    Serial
     &{serial_config}=    Create Dictionary    serial_interface=RS485    baud_rate=1200    parity=None   data_bit=8    stop_bit=1    flow_control=None
     Configure Serial Settings    ${serial_config}
@@ -31,25 +29,6 @@ Check If Sereial Setting Can Be Changed Properly
 Go to The Serial Page 
     &{web_path}=    Create Dictionary    ip=${IP_ADDRESS}    title=Serial    subtitle=COM1
     Go To ATOP Webpage    ${web_path}
-
-Go To ATOP Webpage
-    [Arguments]    ${web_path}
-    Go To DUT Webpage    ${web_path.ip}
-    Go To Subwebpage    ${web_path.title}
-    Go To Subwebpage    ${web_path.subtitle}
-
-Go to DUT Webpage
-    [Arguments]    ${IP}
-    ${old_timeout} =    Set Browser Timeout    1m
-    New Context     ignoreHTTPSErrors=True    httpCredentials={'username': '$USERNAME', 'password': '$PASSWORD'}
-    New Page    ${IP}
-    Sleep     3s
-    Set Browser Timeout    ${old_timeout}
-
-Go To Subwebpage
-    [Arguments]    ${title}
-    Click    xpath=//a[contains(text(),"${title}")]
-    Sleep     1s
 
 Configure TCP Server
     [Arguments]    ${tcp_config}
@@ -127,10 +106,3 @@ Select The Flow Control
     ...    '${flow_control}'=='Xon/Xoff'    1
     ...    '${flow_control}'=='RTS/CTS'    2
     Click    css=iframe >>> //input[@name="radSerialFlowCtrl" and @value=${value}]
-
-Save And Apply
-    Click    css=iframe >>> input[type="submit"]
-
-Check If The Element State Correct
-    [Arguments]    ${element}    ${state}
-    Get Checkbox State    ${element}    ==    ${state}
